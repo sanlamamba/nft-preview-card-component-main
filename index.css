@@ -31,9 +31,7 @@ a.customLink:hover {
   border-radius: 20px;
   box-shadow: 0px 0px 50px -50px rgba(0, 0, 0, 1);
 }
-.card__mainImg {
-  border-radius: 9px;
-}
+
 .card__container > img {
   width: 100%;
 }
@@ -99,4 +97,28 @@ hr {
 .card__author_tag {
   color: var(--soft-blue);
   font-size: 0.8em;
+}
+
+.card__image_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100% 100%;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.card__image_transition:hover {
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.card__mainImg {
+  width: 100%;
+}
+.card__image_transition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00fff790;
+  transform: translateX(-100%);
+  opacity: 0;
 }
