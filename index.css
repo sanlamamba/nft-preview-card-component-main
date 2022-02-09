@@ -1,0 +1,102 @@
+@import url("./reset.css");
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+}
+a.customLink {
+  font-size: inherit;
+  color: white;
+  text-decoration: inherit;
+}
+
+a.customLink:hover {
+  color: var(--cyan);
+  transition: 0.2s ease-in;
+}
+.card__container {
+  width: 100%;
+  max-width: calc(280px + var(--font-size));
+  background-color: var(--card-bg);
+  padding: var(--font-size);
+  border-radius: 20px;
+  box-shadow: 0px 0px 50px -50px rgba(0, 0, 0, 1);
+}
+.card__mainImg {
+  border-radius: 9px;
+}
+.card__container > img {
+  width: 100%;
+}
+
+.card__stats_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 15px;
+}
+.card__stats_container > * {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card__stats_title {
+  font-size: 0.8em;
+  color: var(--cyan);
+  font-weight: 600;
+}
+.card__stats_title::after {
+  content: "ETH";
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  padding: 0px 2px;
+}
+.card__text_container > * {
+  color: var(--white);
+}
+.card__text_title {
+  font-weight: 600;
+  padding: 15px 0px;
+}
+
+.card__timer_title {
+  color: var(--soft-blue);
+  font-size: 0.8em;
+}
+
+.card__text_desc {
+  font-weight: 300;
+  font-size: 0.8em;
+  line-height: 1.75;
+  color: var(--soft-blue);
+}
+hr {
+  background-color: var(--line);
+  color: var(--line);
+  height: 1px;
+}
+.card__author_container {
+  padding: 10px 2px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.card__author_img {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.card__author_tag {
+  color: var(--soft-blue);
+  font-size: 0.8em;
+}
