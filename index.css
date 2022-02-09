@@ -26,9 +26,9 @@ a.customLink:hover {
 }
 .card__container {
   width: 100%;
-  max-width: calc(280px + var(--font-size));
+  max-width: calc(300px + var(--font-size));
   background-color: var(--card-bg);
-  padding: var(--font-size);
+  padding: 20px;
   border-radius: 20px;
   box-shadow: 0px 0px 50px -50px rgba(0, 0, 0, 1);
 }
@@ -41,7 +41,7 @@ a.customLink:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px 15px;
+  padding: 15px 0px 20px;
 }
 .card__stats_container > * {
   display: flex;
@@ -75,7 +75,7 @@ a.customLink:hover {
 
 .card__text_desc {
   font-weight: 300;
-  font-size: 0.8em;
+  font-size: 0.9em;
   line-height: 1.75;
   color: var(--soft-blue);
 }
@@ -85,13 +85,13 @@ hr {
   height: 1px;
 }
 .card__author_container {
-  padding: 10px 2px;
+  padding: 15px 2px;
   display: flex;
   gap: 10px;
   align-items: center;
 }
 .card__author_img {
-  width: 30px;
+  width: 35px;
   border: 1px solid white;
   border-radius: 50%;
 }
