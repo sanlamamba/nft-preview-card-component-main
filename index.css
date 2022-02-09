@@ -12,6 +12,7 @@ body {
 .attribution {
   position: absolute;
   bottom: 0;
+  transform: scale(0.7);
 }
 a.customLink {
   font-size: inherit;
